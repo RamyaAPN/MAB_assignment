@@ -29,13 +29,13 @@ public class reqCall {
 		//Static dropdown selection
 		Select sl= new Select(driver.findElement(By.id("ReasonForEnquiry")));
 		sl.selectByValue("Home Mover");
-        //Explicit wait for finding the check box element but the below cant be proceeded due to recaptcha interruption
+                /*Explicit wait for finding the check box element but the below cant be proceeded due to recaptcha interruption
 		WebDriverWait w= new WebDriverWait(driver,100);
 		w.until(ExpectedConditions.visibilityOfElementLocated(By.id("OptInEmail")));
 		//WebElement ch= driver.findElement(By.id("OptInEmail"));
 		//Checking and unchecking the check box
 		driver.findElement(By.id("OptInEmail")).click();
-		driver.findElement(By.id("OptInEmail")).click();
+		driver.findElement(By.id("OptInEmail")).click();*/
 		driver.close();
 		
       
